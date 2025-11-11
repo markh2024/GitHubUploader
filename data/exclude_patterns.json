@@ -1,0 +1,17 @@
+{
+    "files": [
+        "githubtoken.dat",
+        ".env",
+        ".gitignore"
+    ],
+    "dirs": [
+        ".git",
+        "build",
+        "dist"
+    ],
+    "patterns": [
+        "secret",
+        ".token",
+        ".key"
+    ]
+}
