@@ -1,0 +1,16 @@
+
+
+
+/home/mark/CPlusPlusProjects/
+						├──GitHubUploader/
+						│
+						├── CMakeLists.txt
+						├── include/
+						│   └── GitHubUploader.hpp
+						├──src/ 
+							├── main.cpp
+							└── GitHubUploader.cpp
+						|
+						├──data/ exclude_patterns.json
+						├──dist/ the compiled exe  this reads token from line 1 
+
