@@ -1,0 +1,5 @@
+/home/mark/CPlusPlusProjects/GitHubUploader/build/CMakeFiles/GitHubUploader.dir
+/home/mark/CPlusPlusProjects/GitHubUploader/build/CMakeFiles/install_deps.dir
+/home/mark/CPlusPlusProjects/GitHubUploader/build/CMakeFiles/run.dir
+/home/mark/CPlusPlusProjects/GitHubUploader/build/CMakeFiles/edit_cache.dir
+/home/mark/CPlusPlusProjects/GitHubUploader/build/CMakeFiles/rebuild_cache.dir
