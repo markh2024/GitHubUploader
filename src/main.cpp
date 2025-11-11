@@ -15,7 +15,10 @@ void typeWriter(const std::string& text, int delay_ms = 20, const std::string& c
 
 // Display menu
 void showMenu() {
-    typeWriter("\n=== GitHub Uploader Menu ===", 10, "\033[96m"); // Bright Cyan
+    typeWriter("\n=== GitHub Uploader Menu  Created By MD Harrington ===", 10, "\033[96m"); // Bright Cyan
+    typeWriter("\n===    Website https://eliteprojects.x10host.com   ===", 10, "\033[96m"); // Bright Cyan
+    typeWriter("\n\n===       BexleyHeath Kent London UK  DA68NP     ===\n\n", 10, "\033[96m"); // Bright Cyan
+    
     typeWriter("1. Load GitHub Token from file", 10, "\033[92m");  // Bright Green
     typeWriter("2. Set Repository (user/repo)", 10, "\033[93m");  // Bright Yellow
     typeWriter("3. Set Branch", 10, "\033[95m");  // Bright Magenta
@@ -30,6 +33,13 @@ void showMenu() {
 int main() {
     GitHubUploader uploader;
     uploader.loadSessionConfig();  // Load last used settings
+    std::string tokenFile = "/home/mark/.github_token/githubtoken.dat";
+    
+    
+    if (uploader.loadTokenFromFile(tokenFile)) {
+        std::cout << "Token auto-loaded successfully!\n";
+    }
+    
     int choice;
 
     do {
