@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/GitHubUploader.dir/src/main.cpp.o CMakeFiles/GitHubUploader.dir/src/GitHubUploader.cpp.o -o dist/GitHubUploader  /usr/lib/x86_64-linux-gnu/libcurl.so /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so 
